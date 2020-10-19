@@ -4,6 +4,10 @@
 ### Anti-classification
 Decisions do not consider protected attributes.[^fn1]
 
+```math
+d(x)=d(x') for all x, x' such that x_u =x'_u.
+```
+
 $$
 d(x)=d(x'){ \textrm{ for all } } x, x' \textrm{ such that } x_u =x'_u.
 $$
