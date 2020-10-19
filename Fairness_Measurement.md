@@ -2,17 +2,13 @@
 
 
 ### Anti-classification
-Decisions do not consider protected attributes.[^fn1]
-
-```math
-d(x)=d(x') for all x, x' such that x_u =x'_u.
-```
+Decisions do not consider protected attributes.
 
 $$
-d(x)=d(x'){ \textrm{ for all } } x, x' \textrm{ such that } x_u =x'_u.
+d(x)=d(x') \: for \, all \: x, x'  \: such \, that \: x_u =x'_u.
 $$
 
-[^fn1]: *[The Measure and Mismeasure of Fairness: A Critical Review of Fair Machine Learning](https://arxiv.org/pdf/1808.00023.pdf)*
+> *[The Measure and Mismeasure of Fairness: A Critical Review of Fair Machine Learning](https://arxiv.org/pdf/1808.00023.pdf)*
 
 
 ### Classification Parity
